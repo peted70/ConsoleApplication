@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApplication
 {
@@ -10,12 +8,16 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            doStuff();
+            DoStuff();
         }
 
-        private static void doStuff()
+        private static void DoStuff()
         {
-            throw new NotImplementedException();
+            IEnumerable<int> enumerable = Enumerable.Range(0, 100);
+            foreach (var i in enumerable)
+            {
+                Console.WriteLine("value = {0}", i);
+            }
         }
     }
 }
