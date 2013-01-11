@@ -10,6 +10,12 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+            doStuff();
+        }
+
+        private static void doStuff()
+        {
+            throw new NotImplementedException();
         }
     }
 }
