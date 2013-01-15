@@ -9,6 +9,12 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             DoStuff();
+            NewFeature();
+        }
+
+        private static void NewFeature()
+        {
+
         }
 
         private static void DoStuff()
